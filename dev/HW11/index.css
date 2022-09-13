@@ -1,0 +1,464 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__container,
+.get-started {
+  background: #FAFBFD;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.get-started {
+  height: 611px;
+}
+
+.name_header {
+  width: 95px;
+  height: 25.86px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.menu_item {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  color: #000000;
+}
+
+.button__blue {
+  width: 130px;
+  height: 40px;
+  background: #4285F4;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  color: #FCFDFE;
+  text-transform: uppercase;
+  border: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.menu__body {
+  display: grid;
+  grid-template-columns: 50px 100px 1fr 400px;
+  justify-items: end;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.menu__list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.block-text__title {
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+  margin: 0;
+}
+
+.block-text__text {
+  width: 370px;
+  height: 60px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #616161;
+  margin-top: 12px;
+}
+
+.block-text__button {
+  width: 144px;
+  height: 40px;
+  background: #EC5863;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  color: #FCFDFE;
+  border: 0;
+}
+
+.button {
+  text-transform: uppercase;
+}
+
+.get-started__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.block-text {
+  width: 497px;
+  height: 220px;
+}
+
+.video-get-started__title {
+  font-size: 13px;
+  line-height: 126%;
+  letter-spacing: 0.08em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #B0B0B0;
+}
+
+.video-get-started__text {
+  font-size: 9px;
+  line-height: 126%;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on; 
+  color: #000000;
+  margin-top: 5px;
+}
+
+.get-started__video {
+  width: 228px;
+  height: 44px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.get-started__image {
+  position: relative;
+  z-index: 2;
+}
+
+.main_block {
+  position: absolute;
+  width: 295.29px;
+  height: 700px;
+  right: 0px;
+  top: 0px;
+  background: #EC5863;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px 0px 0px 30px;
+}
+
+.stay-safe__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 100px;
+}
+
+.stay-safe__content {
+  display: grid;
+  align-items: center;
+}
+
+.media-stay-safe {
+  width: 373px;
+  text-align: center;
+  position: relative;
+  padding: 56px 0px 27px 0px;
+}
+
+.telephone {
+  position: relative;
+  z-index: 5;
+  max-width: 100%;
+}
+
+.media-stay-safe__item {
+  position: absolute;
+  background-color: #ec5863;
+  border-radius: 30px;
+  width: 77px;
+  height: 77px;
+}
+
+.media-stay-safe__item1 {
+  top: 0px;
+  left: 0px;
+  width: 147px;
+  height: 147px;
+}
+
+.media-stay-safe__item2 {
+  bottom: 0px;
+  left: 33px;
+}
+
+.media-stay-safe__item3 {
+  bottom: 107px;
+  right: 34px;
+}
+
+.experts__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.experts__block-text{
+  width: 393px;
+  height: 181px;
+}
+
+.experts__video{
+  width: 521.17px;
+  height: 284px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.experts__container{
+  width: 100%;
+  height: 700px;
+  background: #FAFBFD;
+  margin-bottom: 100px;
+  padding: 100px;
+}
+
+.statistics-experts {
+  max-width: 655px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.statistics_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  justify-content: center;
+}
+
+.statistics-experts__body {
+  background-color: #fff;
+  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+  position: relative;
+  z-index: 2;
+  margin: 0px 0px 80px 0px;
+}
+
+.body-statistics-experts__value {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.14em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #EC5863;
+  margin: 0;
+}
+
+.body-statistics-experts__text{
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+}
+
+.statistics-experts__decor {
+  position: absolute;
+  background-color: #ec5863;
+  border-radius: 30px;
+}
+
+.statistics-experts__decor1 {
+  width: 65px;
+  height: 65px;
+  transform: rotate(-30deg);
+  bottom: -21px;
+  left: -21px;
+  border-radius: 16px;
+}
+
+.statistics-experts__decor2 {
+  width: 97px;
+  height: 97px;
+  right: 50%;
+  top: -40px;
+  transform: rotate(30deg);
+}
+
+.statistics-experts__decor3 {
+  width: 128px;
+  height: 128px;
+  right: -55px;
+  top: 0px;
+  transform: rotate(-30deg);
+}
+
+.healthcare {
+  height: 500px;
+}
+
+.healthcare__block-text {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.healthcare_title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 14px;
+}
+
+.healthcare_description{
+  width: 600.9px;
+  height: 52px;
+  font-size: 12px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #616161;
+}
+
+.healthcare_description_conteiner {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+.healthcare_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.healthcare_title_block {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+  margin: 0;
+}
+
+.healthcare_description_block {
+  font-size: 12px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #616161;
+  margin: 0;
+  width: 227.27px;
+  height: 38.09px;
+}
+
+.healthcare_block_description {
+  width: 278.17px;
+  height: 276.52px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.healthcare_block {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 72px;
+}
+
+.helthcare_decor {
+  position: relative;
+}
+
+.helthcare-experts__decor {
+  position: absolute;
+  background: #EC5863;
+}
+
+.healthcare-experts__decor1 {
+  width: 65.75px;
+  height: 65.75px;
+  left: -15px;
+  top: 240px;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+}
+
+.healthcare-experts__decor2 {
+  width: 96.96px;
+  height: 96.96px;
+  left: 230px;
+  top: 50px;
+  border-radius: 30px;
+  transform: rotate(105deg);
+}
+
+.healthcare-experts__decor3 {
+  width: 127.47px;
+  height: 127.47px;
+  left: 580px;
+  top: 170px;
+  border-radius: 30px;
+  transform: rotate(-30deg);
+}
+
+.healthcare-experts__decor4 {
+  width: 65.75px;
+  height: 65.75px;
+  left: 940px;
+  top: -30px;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.color_title {
+  color: #EC5863;
+}
+
+.color {
+  color: #4285F4;
+}
+
